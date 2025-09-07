@@ -1,0 +1,39 @@
+body {
+    font-family: 'Verdana';
+    color: white;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 10px #84ff57;
+}
+
+#first-section, #second-section, #third-section {
+    margin-bottom: 80px;
+    padding: 20px;
+    background-color: #3a5239;
+    border-radius: 20px;
+}
+
+
+
+.Peter {
+    font-weight: 900;
+    color: #e9ffe8;
+    text-shadow: 1px 1px 10px #84ff57;
+}
+
+.not-peter {
+    font-weight: 900;
+    color: #e6e8e6;
+}
+
+.action {
+    font-style: italic;
+    color: #c9c9c9;
+}
+
+
