@@ -1,0 +1,111 @@
+html {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    background-color: #c0c7eb;
+}
+
+p {
+    font-size: 18px;
+    color: #ededed;
+}
+
+h1, h2, h3 {
+    color: #242e80;
+}
+
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+#summary {
+    margin: 0;
+}
+
+h2 {
+    line-height: .5em;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+
+header {
+    margin-bottom: 3em;
+}
+
+.group {
+    margin-bottom: 50px;
+    border: 1px solid #242e80;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto 50px auto;
+}
+
+.sample {
+    background-color: #2e3a75;
+    padding: 15px;
+    border-radius: 20px;
+    width: 35%;
+    margin: 2rem auto;
+    box-shadow: 5px 5px #7471b0;
+}
+
+.label {
+    color: #cedaf5;
+    font-size: 12px;
+}
+
+
+/* weight */
+#light-weight {
+    font-weight: 300;
+}
+
+#bold-weight {
+    font-weight: 700;
+}
+
+/* text styles */
+#italic-style {
+    font-style: italic;
+}
+
+/* spacing */
+#positive-spacing {
+    letter-spacing: 0.45em;
+}
+
+#negative-spacing {
+    letter-spacing: -0.08em;
+}
+
+/* decoration */
+#underline {
+    text-decoration: underline;
+}
+
+#line-through {
+    text-decoration: line-through;
+}
+
+#overline {
+    text-decoration: overline;
+}
+
+/* transform */
+#uppercase {
+    text-transform: uppercase;
+}
+
+#lowercase {
+    text-transform: lowercase;
+}
+
+#capitalize {
+    text-transform: capitalize;
+}
