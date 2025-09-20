@@ -20,13 +20,17 @@ h2 {
     font-size: 1rem;
 }
 
+h1, h2 {
+    font-weight:lighter;
+}
+
 img {
     width: 100%;
 }
 
 .cast li {
     width: 25%;
-    
+
     div {
         font-size: 0.8rem;
     }
@@ -47,3 +51,22 @@ img {
     }
 }
 
+img + div {
+    font-weight: bold;
+}
+
+div ~ div {
+    font-style: italic;
+}
+
+#game-of-thrones ul {
+    li:last-child::after {
+        content: "*";
+    }
+}
+
+#game-of-thrones .seasons::after {
+    content: "* Final Season";
+    font-size: 0.7rem;
+    color: #999;
+}
