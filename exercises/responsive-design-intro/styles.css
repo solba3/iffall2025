@@ -13,4 +13,15 @@ html { font-size: 12pt; }
 
 @media (min-width: 640px) {
     html { font-size: 16pt; }
+
+    .two-columns-example {
+        display: flex;
+    }
+
+    .two-columns-example > * {
+        width: 50%;
+    }
+
   }
+
+
