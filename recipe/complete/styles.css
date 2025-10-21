@@ -4,8 +4,81 @@ h1, h2, h3, h4 {
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+    line-height: 1.8em;
 }
 
-main {
-    margin: auto;
+#header-container {
+    display: grid;
+    grid-template-columns: 1fr;
 }
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#first-cheesecake {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#information {
+    display: inline;
+    background-color: lightyellow;
+}
+
+
+#ingredients {
+    background-color: #edcb91;
+    color: #4a3526;
+    padding: .1rem;
+    margin: .5rem;
+}
+
+#instructions {
+    background-color: #edcb91;
+    color: #4a3526;
+    padding: .1rem;
+    border: .5rem solid  #edcb91;
+    margin: .5rem;
+}
+
+/* desktop */
+@media (min-width: 769px) {
+    #header-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "title image"
+            "info image"
+            "dietary image";
+    }
+
+    #first-cheesecake {
+        grid-area: image;
+    }
+
+    h1 {
+        grid-area: title;
+    }
+
+    #information {
+        grid-area: info;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-right: 20px;
+    }
+
+    #dietary-restrictions {
+        grid-area: dietary;
+    }
+
+}
+
+
+
+
