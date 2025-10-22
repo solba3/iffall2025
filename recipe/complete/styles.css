@@ -80,7 +80,7 @@ header {
     background: linear-gradient(135deg, #fffbf0 0%, #fff8e1 100%);
     padding: 1.5rem;
     border-radius: 12px;
-    border-left: 4px solid #f4a460;
+    border: 4px solid #f4a460;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -98,7 +98,7 @@ header {
     background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
     padding: 1.5rem;
     border-radius: 12px;
-    border-left: 4px solid #ff9800;
+    border: 4px solid #ff9800;
 }
 
 #dietary-restrictions h3 {
@@ -157,7 +157,6 @@ main {
     border-radius: 8px;
     margin-top: 1.5rem;
     font-style: italic;
-    border-left: 3px solid #d4a574;
 }
 
 /* Instructions Section */
@@ -173,7 +172,6 @@ main {
     padding: 1.5rem;
     margin: 1.5rem 0;
     border-radius: 10px;
-    border-left: 4px solid #c9a66b;
 }
 
 #instructions ol {
