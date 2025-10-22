@@ -125,7 +125,6 @@ header {
 }
 
 #dietary-restrictions li:before {
-    content: "⚠";
     position: absolute;
     left: 0;
     color: #ff9800;
