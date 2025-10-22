@@ -69,8 +69,6 @@ header {
     min-height: 300px;
     object-fit: cover;
     border-radius: 15px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease;
 }
 
 #first-cheesecake:hover {
@@ -83,7 +81,6 @@ header {
     padding: 1.5rem;
     border-radius: 12px;
     border-left: 4px solid #f4a460;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -102,7 +99,6 @@ header {
     padding: 1.5rem;
     border-radius: 12px;
     border-left: 4px solid #ff9800;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
 #dietary-restrictions h3 {
@@ -144,7 +140,6 @@ main {
     padding: 2rem;
     margin-bottom: 2rem;
     border-radius: 15px;
-    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
 }
 
 #ingredients ul {
@@ -171,7 +166,6 @@ main {
     color: #4a3526;
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
 }
 
 #instructions > div {
