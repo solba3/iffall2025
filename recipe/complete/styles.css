@@ -233,6 +233,16 @@ main {
         grid-area: dietary;
         align-self: start;
     }
+
+    .two-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .two-images img {
+        padding: .2rem;
+    }
+    
 }
 
 /* Tablet Responsive */
@@ -258,6 +268,10 @@ main {
     }
 }
 
-
+img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
 
 
