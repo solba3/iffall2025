@@ -71,12 +71,13 @@ a#btn-fitbit {
 
 #btn-lyft:hover {
     background-image: none;
+    transform: translateX(-10%);
 }
 #btn-lyft img {
     margin: auto;
     width: 0;
     height: 80px;
-    border-radius: 15px;
+    border-radius: 50px;
 }
 
 #btn-lyft:hover img {
