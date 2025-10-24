@@ -92,11 +92,58 @@ a#btn-spotify:hover {
     transition: .5s ease;
 }
 
+#btn-garden {
+    display: inline-block;
+    font-family: "transat-text", sans-serif;
+    font-size: 1.5rem;
+    color: #006b36;
+    margin: auto;
+    margin-top: 15%;
+
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: .02rem;
+    transition: opacity .4s;
+}
+
+#btn-garden span {
+    position: relative;
+    top: -50px;
+    transition: all .4s ease;
+}
+
+#btn-garden img {
+    transition: opacity .4s;
+    display: block;
+    margin: auto;
+    width: 100px;
+    opacity: 0;
+}
+
+
+#btn-garden:hover {
+    img {
+        opacity: 1;
+    }
+
+    span {
+        top: 10px;
+    }
+}
+
+#btn-garden span:hover {
+    transition: all ease;
+    top: 25px;
+}
+
+
+
+
 #btn_ideo:hover {
     background-image: url(images/ideoblue.png);
     box-shadow: 10px 10px 20px #000000;
-    transform: translateY(30%) scale(0.9);
 }
+
 #btn_ideo {
     display: inline-block;
     transform: translateY(30%);
