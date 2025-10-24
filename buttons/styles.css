@@ -46,16 +46,22 @@ a#btn-spotify:hover {
     color: #000;
 }
 
-a#btn-fitbit {
+#btn-samsung {
     display: inline-block;
+    width: 85%;
     height: 50px;
     margin: auto;
     margin-top: 100px;
-    text-decoration: none;
-    font-family: Roboto, Verdana, Arial, sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    color: #000;
+    background-image: url("images/samsung-black.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#btn-samsung:hover {
+    background-image: url("images/samsung-blue.svg");
+    transform: scale(1.5);
+    transition: transform .3s;
 }
 
 #btn-lyft {
@@ -67,6 +73,7 @@ a#btn-fitbit {
     background-image: url("images/lyft-logo.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #btn-lyft:hover {
