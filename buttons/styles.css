@@ -1,3 +1,100 @@
-* {
-    font-family:'Open Sans', sans-serif;
+body {
+    font-family:'Nunito', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+main {
+    margin-left: 40px;
+}
+
+.button-container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a#btn-spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn-spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn-fitbit {
+    display: inline-block;
+    height: 50px;
+    margin: auto;
+    margin-top: 100px;
+    text-decoration: none;
+    font-family: Roboto, Verdana, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+#btn-lyft {
+    display: inline-block;
+    width: 50%;
+    height: 85px;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url("images/lyft-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#btn-lyft:hover {
+    background-image: none;
+}
+#btn-lyft img {
+    margin: auto;
+    width: 0;
+    height: 80px;
+    border-radius: 15px;
+}
+
+#btn-lyft:hover img {
+    width: 120%;
+    transition: .5s ease;
+}
+
+#btn_ideo:hover {
+    background-image: url(images/ideoblue.png);
+    box-shadow: 10px 10px 20px #000000;
+    transform: translateY(30%) scale(0.9);
+}
+#btn_ideo {
+    display: inline-block;
+    transform: translateY(30%);
+    transition: transform 0.3s;
+    width: 180px;
+    height: 180px;
+    background-image: url(images/ideo.jpg);
+    background-size: contain;
 }
