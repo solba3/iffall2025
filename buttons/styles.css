@@ -221,6 +221,25 @@ a#btn-spotify:hover {
 }
 
 
+#btn-hasbro {
+    display: inline-block;
+    width: 50%;
+    height: 85px;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url(images/hasbro-logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    transition: 0.3s;
+}
+
+#btn-hasbro:hover {
+    transform: scale(2);
+    background-image: url(images/hasbro-color-bg.png);
+
+}
 
 
 #btn_ideo:hover {
