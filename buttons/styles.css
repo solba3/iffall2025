@@ -232,11 +232,11 @@ a#btn-spotify:hover {
     background-size: contain;
     background-repeat: no-repeat;
 
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 #btn-hasbro:hover {
-    transform: scale(2);
+    transform: scale(2.3);
     background-image: url(images/hasbro-color-bg.png);
 
 }
