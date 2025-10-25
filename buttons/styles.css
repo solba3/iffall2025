@@ -1,13 +1,19 @@
-body {
-    font-family:'Nunito', sans-serif;
-}
-
 h1 {
     font-weight: bold;
 }
 
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 main {
-    margin-left: 40px;
+    margin: 40px;
+}
+
+div {
+    display: block;
 }
 
 .button-container {
@@ -137,6 +143,42 @@ a#btn-spotify:hover {
 }
 
 
+#btn-michael {
+    display: inline-block;
+    position: relative;
+    font-family: 'Gotham Book' Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: .02rem;
+    top: 100px;
+    text-decoration: none;
+    border: 0px solid black;
+    padding: 15px;
+    transition: .3s linear;
+}
+
+#btn-michael::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90%;
+    height: 2px;
+    bottom: 15px;
+    left: 15px;
+    background-color: black;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+#btn-michael:hover {
+    border: 2px solid black;
+}
+
+#btn-michael:hover::before {
+    transform: scaleX(1);
+}
 
 
 #btn_ideo:hover {
