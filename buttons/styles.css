@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -274,18 +274,22 @@ a#btn-spotify:hover {
     transition: .5s ease;
 }
 
-
-#btn_ideo:hover {
-    background-image: url(images/ideoblue.png);
-    box-shadow: 10px 10px 20px #000000;
+#btn-molly {
+    display: inline-block;
+    margin-top: 40%;
+    color: #3b441a;
+    padding: 10px;
+    font-weight: 400;
+    letter-spacing: .15em;
+    border: 1px solid #3b441a;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    transition: all .5s;
 }
 
-#btn_ideo {
-    display: inline-block;
-    transform: translateY(30%);
-    transition: transform 0.3s;
-    width: 180px;
-    height: 180px;
-    background-image: url(images/ideo.jpg);
-    background-size: contain;
+#btn-molly:hover {
+    background-color: #3b441a;
+    color: #a9a476;
 }
