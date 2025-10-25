@@ -180,6 +180,48 @@ a#btn-spotify:hover {
     transform: scaleX(1);
 }
 
+#btn-pastaria {
+    display: inline-block;
+    margin-top: 30%;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: teal;
+    padding: 25px 40px 25px 40px;
+    border-radius: 100%;
+    color: rgb(255, 107, 53);
+    transition: 0.3s ease;
+}
+
+#btn-pastaria span {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.3s ease-out;
+}
+
+
+#btn-pastaria:hover {
+    font-size: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding: 20px 80px 20px 80px;
+    border-radius: 20px;
+    background-image: url(images/pastaria-logo.webp);
+    background-size: 165px;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+
+    span {
+        color: #c5d0cf;
+        left: 3px;
+        font-size: 25px;
+        opacity: 0;
+    }
+}
+
+
+
 
 #btn_ideo:hover {
     background-image: url(images/ideoblue.png);
